@@ -1,12 +1,12 @@
 import { shallow } from '@vue/test-utils';
-import HelloWorld from '@/components/HelloWorld.vue';
+import Hello from '../../src/views/Home.vue';
 
 describe('HelloWorld.vue', () => {
   it('renders props.msg when passed', () => {
-    const msg = 'new message';
-    const wrapper = shallow(HelloWorld, {
-      propsData: { msg },
-    });
+    const msg = 'Your Store Name Goes here!?';
+    
+    const wrapper = shallow(Hello);
+
     expect(wrapper.text()).toMatch(msg);
   });
 });
