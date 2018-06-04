@@ -1,182 +1,182 @@
 [
-    {
-      "id": "0001",
-      "name": "Otter Shirt",
-      "price": 99.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Classic Otter",
-      "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
-      "available": true,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Small",
-              "value" : "s"
-            },
-            {
-              "option": "Medium",
-              "value" : "m"
-            },
-            {
-              "option": "Large",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    },
-    {
-      "id": "0002",
-      "name": "Cat Shirt",
-      "price": 29.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Classic Cats",
-      "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
-      "available": true,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Small",
-              "value" : "s"
-            },
-            {
-              "option": "Medium",
-              "value" : "m"
-            },
-            {
-              "option": "Large",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    },
-    {
-      "id": "0003",
-      "name": "Doggy Shirt",
-      "price": 12.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Doggy Dog",
-      "long_desc": "Plain colour t-shirt - 50% Cotton, 50% Lycra, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
-      "available": true,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Small",
-              "value" : "s"
-            },
-            {
-              "option": "Medium",
-              "value" : "m"
-            },
-            {
-              "option": "Large",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    },
-    {
-      "id": "0004",
-      "name": "Not a Shirt",
-      "price": 0.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Distractions",
-      "long_desc": "Something Something Dark Side. We should never be able to see this!",
-      "available": false,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Small",
-              "value" : "s"
-            },
-            {
-              "option": "Medium",
-              "value" : "m"
-            },
-            {
-              "option": "Large",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    },
-    {
-      "id": "0005",
-      "name": "Sea Lion Shirt",
-      "price": 99.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Classic Sea dudes",
-      "long_desc": "Blue colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
-      "available": true,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Small",
-              "value" : "s"
-            },
-            {
-              "option": "Medium",
-              "value" : "m"
-            },
-            {
-              "option": "Large",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    },
-    {
-      "id": "0006",
-      "name": "Limited Edition Otterz Shirt",
-      "price": 109.99,
-      "currency": "£",
-      "image": "URL TO GO HERE",
-      "short_desc": "Limited Edition Otterz",
-      "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
-      "available": true,
-      "options": [
-        {
-          "name": "size",
-          "variants": [
-            {
-              "option": "Smallz",
-              "value" : "s"
-            },
-            {
-              "option": "Mediumz",
-              "value" : "m"
-            },
-            {
-              "option": "Largez",
-              "value" : "l"
-            }
-          ]
-        }
-        
-      ]
-    }
-  ]
+  {
+    "id": "0001",
+    "name": "Otter Shirt",
+    "price": 10,
+    "currency": "£",
+    "image": "https://d1x7zurbps6occ.cloudfront.net/product/xlarge/464318-142339.jpg",
+    "short_desc": "Classic Otter",
+    "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
+    "available": true,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Small",
+            "value" : "s"
+          },
+          {
+            "option": "Medium",
+            "value" : "m"
+          },
+          {
+            "option": "Large",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Cat Shirt",
+    "price": 20,
+    "currency": "£",
+    "image": "https://cdn.shopify.com/s/files/1/0209/1522/products/t-shirts-hamburger-cat-t-shirt-1_1024x1024.jpg?v=1517704756",
+    "short_desc": "Classic Cats",
+    "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
+    "available": true,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Small",
+            "value" : "s"
+          },
+          {
+            "option": "Medium",
+            "value" : "m"
+          },
+          {
+            "option": "Large",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Doggy Shirt",
+    "price": 5,
+    "currency": "£",
+    "image": "https://www.animalshirts.net/wp-content/uploads/2016/12/10-3548.jpg",
+    "short_desc": "Doggy Dog",
+    "long_desc": "Plain colour t-shirt - 50% Cotton, 50% Lycra, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
+    "available": true,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Small",
+            "value" : "s"
+          },
+          {
+            "option": "Medium",
+            "value" : "m"
+          },
+          {
+            "option": "Large",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Not a Shirt",
+    "price": 15,
+    "currency": "£",
+    "image": "https://www.betterthanpants.com/media/catalog/product/t/h/the-boobs-are-real-the-smile-is-fake-womens-regular-white.jpg",
+    "short_desc": "Distractions",
+    "long_desc": "Something Something Dark Side. We should never be able to see this!",
+    "available": false,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Small",
+            "value" : "s"
+          },
+          {
+            "option": "Medium",
+            "value" : "m"
+          },
+          {
+            "option": "Large",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "0005",
+    "name": "Sea Lion Shirt",
+    "price": 30,
+    "currency": "£",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81P7fOE5TfL._UL1500_.jpg",
+    "short_desc": "Classic Sea dudes",
+    "long_desc": "Blue colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
+    "available": true,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Small",
+            "value" : "s"
+          },
+          {
+            "option": "Medium",
+            "value" : "m"
+          },
+          {
+            "option": "Large",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "0006",
+    "name": "Limited Edition Otterz Shirt",
+    "price": 100,
+    "currency": "£",
+    "image": "https://vangogh.teespring.com/v3/image/z07sCdlxLrcx0f8Is9NQ0LVZ1w0/480/560.jpg",
+    "short_desc": "Limited Edition Otterz",
+    "long_desc": "Plain colour t-shirt - 100% Cotton, Ethically sourced, Slim fit, but if that’s not your thing, order a size up",
+    "available": true,
+    "options": [
+      {
+        "name": "size",
+        "variants": [
+          {
+            "option": "Smallz",
+            "value" : "s"
+          },
+          {
+            "option": "Mediumz",
+            "value" : "m"
+          },
+          {
+            "option": "Largez",
+            "value" : "l"
+          }
+        ]
+      }
+      
+    ]
+  }
+]

@@ -1,30 +1,17 @@
-# Vue Workshop
+# Vue Shirt Store
 
+AND Digital workshop to get some knowledge of Vue JS
 
-## Getting Started
+## Quick Start Guide
 
-```
-npm install
-npm run serve
-```
+The repository is written in [Vue](https://vuejs.org/) and [NPM](https://www.npmjs.com/) as the package manager.
 
-## Development
+**To start the app:**
+- To install dependencies, run: `npm install`
+- To run: `npm run serve` 
 
-```
-npm run serve
+## Vision
 
-```
+To create a store, have a list view, a basket, a checkout page and pesist data across all pages
 
-## Unit Tests
-
-```
-npm run test
-
-```
-
-## Building
-
-```
-npm run build
-
-```
+## What I learnt

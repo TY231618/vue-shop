@@ -1,61 +1,75 @@
 <template>
+  
   <div class="home">
-    <img src="../assets/logo.png">
-    <div class="hello">
-      <h1>Your Store Name Goes here!?</h1>
-      <p>
-        For guide and recipes on how to configure / customize this project,<br>
-        check out the
-        <a href="https://github.com/vuejs/vue-cli/tree/dev/docs" target="_blank">vue-cli documentation</a>.
+  <button 
+    class="btn btn-info" 
+    v-on:click="showMenu" 
+  >Menu</button>
+  <span v-show="enableShowMenuBtn">
+    <aside class="menu fixed">
+      <p class="menu-label">
+        Products
       </p>
-      <h3>Installed CLI Plugins</h3>
-      <ul>
-        <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank">babel</a></li>
-        <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank">eslint</a></li>
-        <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest" target="_blank">unit-jest</a></li>
+      <ul class="menu-list">
+        <li><router-link to="/products">T shirts</router-link></li>
+        <li><a>Shorts</a></li>
+        <li><a>Shoes</a></li>
       </ul>
-      <h3>Essential Links</h3>
-      <ul>
-        <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-        <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-        <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-        <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      </ul>
-      <h3>Ecosystem</h3>
-      <ul>
-        <li><a href="https://router.vuejs.org/en/essentials/getting-started.html" target="_blank">vue-router</a></li>
-        <li><a href="https://vuex.vuejs.org/en/intro.html" target="_blank">vuex</a></li>
-        <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank">vue-devtools</a></li>
-        <li><a href="https://vue-loader.vuejs.org/en" target="_blank">vue-loader</a></li>
-        <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-      </ul>
+    </aside>  
+  </span>
+    <div class="hello">
+      <h1>{{name}}</h1>
+      <p class="description" v-bind:class="{ 'red': isRed }">{{description}}</p>
+      <button v-on:click="increment">Add 1</button>
+      <p>The button above has been clicked {{ counter }} times.</p>
     </div>
   </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'home'
+  
+  data: function () {
+    return {
+      name: 'Store',
+      description: 'A place to learn Vue.js',
+      counter: 0,
+      isRed: false,
+      enableShowMenuBtn: false
+    }
+  },
+  name: 'home',
+  methods: {
+    increment: function () {
+      this.counter += 1
+      this.isRed = !this.isRed
+    },
+    showMenu: function() {
+      this.enableShowMenuBtn = !this.enableShowMenuBtn
+    }
+  }
 };
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
-  h3 {
-  margin: 40px 0 0;
+<style scoped>
+
+p {
+  color: red;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.red {
+  color: green;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.fixed { 
+  position: fixed; 
+  left:0; 
+  top:50; 
+  width:100px; 
+  height:100px;
 }
-a {
-  color: #42b983;
-}
+
 </style>
 

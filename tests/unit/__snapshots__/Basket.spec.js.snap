@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basket should match snapshot 1`] = `
+<div class="basket">
+    <h4>Basket:</h4>
+    <div class="basket-item">
+        <div class="item-name">
+            dog shirt
+        </div>
+        <div>
+            <button class="waves-effect waves-light btn">
+                <i class="material-icons">cancel</i>
+            </button>
+        </div>
+    </div>
+    <div class="basket-item">
+        <div class="item-name">
+            cat shirt
+        </div>
+        <div>
+            <button class="waves-effect waves-light btn">
+                <i class="material-icons">cancel</i>
+            </button>
+        </div>
+    </div>
+    <p class="basket-size">number of Items: 2</p>
+    <p>Total: £ </p>
+    <p>shipping cost: </p>
+    <!---->
+</div>
+`;
